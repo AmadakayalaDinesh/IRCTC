@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor=lightgreen>
+<h1>****User_Registration_From****</h1>
+<h3><form action="reg" method="post">
+<label>PassangerName:</label><br>
+<input type="text" name="ok"><br>
+<label>PassangettTktNo:</label><br>
+<input type="password" required="required" name="ok1" id="hlo"><br>
+<input type="checkbox" onclick="fun()">Show Password<br>
+<label>PassangerCoachNo:</label><br>
+<input type="text" name="ok2"><br>
+<label>PasangerCoachTyp:</label><br>
+<input type="text" name="ok3"><br>
+<input type="submit" name="register"></form></h3>
+</body>
+<script>
+var v=document.getElementById("hlo");
+function fun(){
+	if(v.type=="password"){
+		v.type="text"
+	}else{
+		v.type="password";
+	}
+}
+</script>
+</html>
